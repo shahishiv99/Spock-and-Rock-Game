@@ -47,6 +47,21 @@ h2 {
   margin: 50px 0 50px 50px;
 }
 
+#player .fa-solid,
+#player .choice {
+  color: dodgerblue;
+  cursor: pointer;
+}
+#computer .fa-solid,
+#computer .choice {
+  color: rgb(218, 53, 53);
+  cursor: pointer;
+}
+
+.selected {
+  color: black !important;
+}
+
 .fa-solid {
   font-size: 50px;
   margin-right: 40px;
